@@ -8,14 +8,13 @@
   </head>
   <body>
 
-    
+    <a-asset-item id="svin" src="src/svin.glb"></a-asset-item>
     <a-scene embedded arjs>
         <a-assets> <img src="src/ravka.jpg" id="pol"></a-assets>  
     <!--    <a-marker id="mark"  preset="custom" type="pattern" url="pat\pattern-g.patt">              -->
             <a-plane scr="#pol"  rotation="0 0 0" width="20" >  </a-plane>
-    <!--       <a-box id="boxx" onclick="" scale="1 1 1" color="red"  position="randPoz()" ></a-box>   -->
-        <!--    <a-gltf-model onclick="OnClic()" src="svin.glb"  position="randPoz()" >
-            </a-gltf-model> -->
+            <a-gltf-model onclick="OnClic()" src="#svin"  position="randPoz()" >
+            </a-gltf-model> 
 
 
      <!--   </a-marker>  -->
