@@ -10,6 +10,6 @@ function randPoz() {
 const gg = document.querySelector('#svin');
 function OnClik() {
     gg.addEventListener('onclick', () => {
-        gg.setAttribute("position",`{0} {y+1} {0}` )
+       gg.setAttribute("position",`${0} ${y+1} ${0}` )
     });
 }
