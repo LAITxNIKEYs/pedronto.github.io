@@ -5,8 +5,8 @@
     <title></title>
     <script src="https://cdn.jsdelivr.net/gh/aframevr/aframe@1c2407b26c61958baa93967b5412487cd94b290b/dist/aframe-master.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-    <script>
-        //        document.addEventListener("DOMContentLoaded", (event) => {
+    script>
+//        document.addEventListener("DOMContentLoaded", (event) => {
     var x = 0,y = 0,z = 0;
  //   function randPoz() {
  //     x = 0;
@@ -20,27 +20,23 @@
  //           gg.setAttribute("position",`${0} ${y} ${0}` );
  //   }
 
-
- AFRAME.registerComponent('chen_poz',{
+ function OnClick() {
+    AFRSME.registerComponent('chen_poz',{
     init: function(){
         var el = this.el;
         el.addEventListener('click', function() {
             el.setAttribute("position",`${0} ${y} ${0}` ); 
         });
     }
+ });   
+ }
 
-
- });
-
-    var svint= document.querySelector('#svin');
-    sint.addEventListener('click',() => 
-    {
-        svint.setAttribute("position",`${0} ${y} ${0}` ); 
-    });
-//  });
-
-
-
+ //   var svint= document.querySelector('#svin');
+ //   sint.addEventListener('click',() => 
+ //   {
+ //       svint.setAttribute("position",`${0} ${y} ${0}` ); 
+ //   }); 
+//});
 
     </script>
   </head>
