@@ -9,7 +9,7 @@ function randPoz() {
 
 const gg = document.querySelector('#boxx');
 function OnClik() {
-    gg.addEventListener('onclik', () => {
+    gg.addEventListener('onclick', () => {
         gg.setAttribute("position",`{0} {y+1} {0}` )
     });
 }
